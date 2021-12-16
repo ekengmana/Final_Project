@@ -9,11 +9,12 @@ then they are colored in before attempting to find more droplets that are bright
 The altered images are saved separately for the file to work as well as for the user to know what is happening, in addition to an annotated image of the original file showing what droplets were detected.
 After detecting droplets in the image, statistics are calculated and plotted in a histogram after adjusting the pixels to micrometer values.
 img.jpg is used as an example for this code working, one containing more noise compared to the other. 
+Latest version: thresholds have been optimized for the given image and drawing in previously detected droplets is successful. Not all droplets are detected, but more are detected as well as more accurately compared to version one.
 
 Recolor is a simple code that takes images that were acquired using different fluorescence channels, color codes them, then merges them together into an overlayed image.
 this allows one to see the colocalization of droplets (or lack there of).
 
-lineprofile is unfinished but was attempted. Itattempts to draw a line over a series of images taken over time to measure the droplets fusing together. The attempt for this is to adjust the contrast in a very 
+lineprofile is unfinished but was attempted. It attempts to draw a line over a series of images taken over time to measure the droplets fusing together. The attempt for this is to adjust the contrast in a very 
 noisy image before trying to find the droplets. Then, the program attempts to find the longest line from one far end of 1 droplet to the opposite far end of the other droplet.
 The scan-lines are then plotted to measure the distance and to confirm wen fusion is fully complete. 
 
