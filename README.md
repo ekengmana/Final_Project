@@ -16,3 +16,9 @@ this allows one to see the colocalization of droplets (or lack there of).
 lineprofile is unfinished but was attempted. Itattempts to draw a line over a series of images taken over time to measure the droplets fusing together. The attempt for this is to adjust the contrast in a very 
 noisy image before trying to find the droplets. Then, the program attempts to find the longest line from one far end of 1 droplet to the opposite far end of the other droplet.
 The scan-lines are then plotted to measure the distance and to confirm wen fusion is fully complete. 
+
+Modules required:
+numpy
+matplotlib
+cv2
+PIL
