@@ -23,3 +23,9 @@ numpy
 matplotlib
 cv2
 PIL
+
+Credits to the following videos/sources:
+Hough detection from https://www.geeksforgeeks.org/circle-detection-using-opencv-python/
+"Finding the Edges - Sobel Operator" Computerphile, https://www.youtube.com/watch?v=uihBwtPIBxM
+"Canny Edge Detector" Comuterphile, https://www.youtube.com/watch?v=sRFM5IEqR2w
+"How Circle Hough Transform Works" Thales Sehn Korting, https://www.youtube.com/watch?v=Ltqt24SQQoI
